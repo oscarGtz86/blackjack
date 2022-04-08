@@ -1,0 +1,31 @@
+{
+  "name": "blackjack",
+  "version": "1.0.0",
+  "description": "Blackjack game",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscarGtz86/blackjack.git"
+  },
+  "keywords": [
+    "Game",
+    "blackjack"
+  ],
+  "author": "Oscar Escamilla",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oscarGtz86/blackjack/issues"
+  },
+  "homepage": "https://github.com/oscarGtz86/blackjack#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "hbs": "^4.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.12.0"
+  }
+}
