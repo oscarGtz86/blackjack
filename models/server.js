@@ -4,6 +4,9 @@ class Server {
     constructor () {
         this.app = express();
         this.port = process.env.PORT;
+
+        // Serving static content
+        this.app.use( express.static('public') );
     }
 
     listen(){
